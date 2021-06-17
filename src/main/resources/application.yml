@@ -1,0 +1,16 @@
+server:
+  port: 9192
+api:
+  uri: http://OPEN-WEATHER-SYSTEM-API/weather/getCityWeather?cityName=
+spring:
+  application:
+    name: WEATHER-FORECAST-PROCESS-API
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost

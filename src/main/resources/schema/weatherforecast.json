@@ -1,0 +1,1750 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "city": {
+      "type": "object",
+      "properties": {
+        "cityName": {
+          "type": "string"
+        },
+        "countryName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "cityName",
+        "countryName"
+      ]
+    },
+    "weatherList": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "dtString": {
+              "type": "string"
+            },
+            "temp": {
+              "type": "number"
+            },
+            "minTemp": {
+              "type": "number"
+            },
+            "maxTemp": {
+              "type": "number"
+            },
+            "pressure": {
+              "type": "integer"
+            },
+            "humidity": {
+              "type": "integer"
+            },
+            "weatherStatus": {
+              "type": "string"
+            },
+            "weatherStatusDesc": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "dtString",
+            "temp",
+            "minTemp",
+            "maxTemp",
+            "pressure",
+            "humidity",
+            "weatherStatus",
+            "weatherStatusDesc",
+            "visibility"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "city",
+    "weatherList"
+  ]
+}
