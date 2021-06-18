@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" modified="2021-06-17T20:48:01.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="xW-c0aYRLnnHwZ52vMXC" version="14.8.0" type="github">
+  <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AmbGIaoiTYfVp6dYXI8V-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-1" value="&lt;br&gt;User/Consumer" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=standard;symbol=general;" parent="1" vertex="1">
+          <mxGeometry x="260" y="265" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-2" value="API Gateway" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="360" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-3" value="Weather-forecast-api" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="530" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-8" value="Open-weather-api" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="530" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;" parent="1" source="7a84cebc1def654-1" target="7a84cebc1def654-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;" parent="1" source="7a84cebc1def654-2" target="7a84cebc1def654-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a84cebc1def654-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;" parent="1" source="7a84cebc1def654-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7a84cebc1def654-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7a84cebc1def654-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmbGIaoiTYfVp6dYXI8V-3" value="&lt;span&gt;OpenWeatherAPI External API&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="730" y="380" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AmbGIaoiTYfVp6dYXI8V-8" value="Eureka Service Registry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="190" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
